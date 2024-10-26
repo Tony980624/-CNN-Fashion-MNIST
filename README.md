@@ -10,5 +10,8 @@ Convolutional Neural Networks use convolutional kernels that slide over the pixe
 
 ![convo](https://github.com/Tony980624/Fashion-MNIST-classification/blob/main/file01/convolutional.gif)
 
-有了特征图后，Pooling来缩小图像
+有了特征图后，Pooling来缩小特征图（一般是取window内的最大值）
+
+![pool](https://github.com/Tony980624/Fashion-MNIST-classification/blob/main/file01/Pooling.gif)
+
 
