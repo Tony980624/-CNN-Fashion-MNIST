@@ -101,6 +101,16 @@ $$
 
 # 训练模型
 
+![train](https://github.com/Tony980624/-CNN-Fashion-MNIST/blob/main/file01/output2.png)
 
+模型训练正确率最终在95%左右
+
+# 测试模型
+
+模型在测试集上准去率为93.22%,还不错，画出confusion matrix检查哪一类出错多
+
+![test](https://github.com/Tony980624/-CNN-Fashion-MNIST/blob/main/file01/output3.png)
+
+可以看到模型在shirt 和 coat 两类之间难以抉择， 这其实是合理的，因为都是上一类，并且都是长袖，属于人眼偶尔都会犯错的类，错误代价并不高
 
 
